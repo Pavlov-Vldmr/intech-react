@@ -11,12 +11,8 @@ function Header() {
             <div className="container">
                 <div className={styles.headerInner}>
                     <Link to="/" className={styles.headerLogo}>
-                        <div className="">
-                            <img
-                                className=""
-                                src="./images/logo.png"
-                                alt="Лого"
-                            />
+                        <div>
+                            <img src="./images/logo.png" alt="Лого"/>
                         </div>
                     </Link>
                     <nav>

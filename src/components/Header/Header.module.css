@@ -2,7 +2,8 @@
     width: 100%;
     padding: 20px 0px;
     background-color: rgba(109, 109, 109, 0.1);
-    position: fixed;
+    box-shadow: 1px 1px 10px gray;
+    /* position: fixed; */
 }
 
 .headerInner{
@@ -36,8 +37,6 @@
     background-color: rgba(16, 16, 16, 0.249);
     transition: 1s;
 }
-
-
 
 .headerLogo{}
 .headerLogo>div>img{
