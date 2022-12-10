@@ -23,6 +23,7 @@ function Header() {
                             <li><NavLink to="/repair">Ремонтно-восстановительные работы</NavLink></li>
                             <li><NavLink to="/installation">Монтаж и шеф-монтаж оборудования </NavLink></li>
                             <li><NavLink to="/production">Производство </NavLink></li>
+                            <li><NavLink to="/it-solutions">Производство </NavLink></li>
                         </ul>
 
                     </nav>

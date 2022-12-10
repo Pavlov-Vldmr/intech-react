@@ -6,6 +6,7 @@ import "./PageNotFound.css"
 function PageNotFound (){
     return(
         <p>Page not found</p>
+        
     );
 }
 

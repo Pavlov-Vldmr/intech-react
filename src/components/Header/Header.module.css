@@ -38,9 +38,15 @@
     transition: 1s;
 }
 
-.headerLogo{}
+
 .headerLogo>div>img{
     width: 200px;
     height: auto;
     margin: auto;
+}
+
+@media (max-width: 1024px){
+    .headerInner>nav>ul{
+        position: absolute;
+    }
 }
