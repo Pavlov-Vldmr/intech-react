@@ -12,6 +12,7 @@ import PageInstallation from './components/PageInstallation/PageInstallation';
 import PageProduction from './components/PageProduction/PageProduction';
 import PageItSolutions from './components/PageItSolutions/PageItSolutions';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='*' element={<PageNotFound />} />
 
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
