@@ -24,13 +24,11 @@ function BlockWithLink(props) {
     return (
 
         <>
-            {/* <div className="container"> */}
                 <div className={[styles.block,  colorModifCheck(colorModif)].join(' ') }>
                     <h3>{title}</h3>
                     <p>{text}</p>
                     <Link to={link}>{linkText}</Link>
                 </div>
-            {/* </div > */}
         </>
     );
 

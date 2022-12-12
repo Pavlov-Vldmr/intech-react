@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.BlockWithLinkGroup>div>p{
+    width: 100%;
+}
+
 @media (max-width: 1200px) {
     .BlockWithLinkGroup{
         display: flex;

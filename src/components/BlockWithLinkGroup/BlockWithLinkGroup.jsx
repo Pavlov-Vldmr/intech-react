@@ -4,7 +4,7 @@ import styles from "./BlockWithLinkGroup.module.css"
 
 function BlockWithLinkGroup(props) {
 const {children} = props
-    return (
+    return (                                
         <>
            
                 <div className={styles.BlockWithLinkGroup}>
