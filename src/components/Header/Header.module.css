@@ -1,52 +1,58 @@
-.header{
-    width: 100%;
-    padding: 20px 0px;
-    background-color: rgba(109, 109, 109, 0.1);
-    box-shadow: 1px 1px 10px gray;
-    /* position: fixed; */
+.header {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: rgba(109, 109, 109, 0.1);
+  box-shadow: 1px 1px 10px gray;
+  /* position: fixed; */
 }
 
-.headerInner{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.headerInner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.headerInner>div{
-    flex: 0 1 200px;
+.headerInner > div {
+  flex: 0 1 200px;
 }
 
-.headerInner>nav>ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: end;
+.headerInner > nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
 }
 
-.headerInner>nav>ul>li>a{
-    color: var(--color-text);
-    padding: 0.5rem 1rem;
-    margin: 5px 5px;
-    display: block;
-    border-radius: 5px;
-    text-align: center;
+.headerInner > nav > ul > li {
+  list-style: none;
 }
 
-.headerInner>nav>ul>li>a:hover{
-    background-color: rgba(16, 16, 16, 0.249);
-    transition: 1s;
+.headerInner > nav > ul > li > a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.5rem 1rem;
+  margin: 5px 5px;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
 }
 
-
-.headerLogo>div>img{
-    width: 200px;
-    height: auto;
-    margin: auto;
+.headerInner > nav > ul > li > a:hover {
+  background-color: rgba(16, 16, 16, 0.249);
+  transition: 1s;
 }
 
-@media (max-width: 1024px){
-    .headerInner>nav>ul{
-        position: absolute;
-    }
+.headerLogo > div > img {
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .headerInner > nav > ul {
+    position: absolute;
+  }
 }

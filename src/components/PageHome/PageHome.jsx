@@ -30,11 +30,12 @@ function PageHome() {
                 ">{<hr />}</Paragraph>
             <Paragraph title="Что мы умеем">{<hr />}</Paragraph>
             <div className="container">
-                <BlockWithLink title='Испытательная лаборатория ООО НПО "Интех"'
+                <BlockWithLink title='Испытательная лаборатория'
+                    titleSecond=' ООО НПО "Интех"'
                     text="Проведение испытательных тестов спортивного оборудования и инвентаря и объектов на соответствие действующим нормам в области безопасности спорта."
                     link="/research-lab"
                     linkText="Испытательная лаборатория"
-                    colorModif="Light">
+                    colorModif="Dark">
                 </BlockWithLink>
                 
                 <BlockWithLinkGroup>

@@ -7,7 +7,7 @@ import styles from "./BlockWithLink.module.css"
 
 function BlockWithLink(props) {
 
-    const { title, text, link, linkText, colorModif, children } = props;
+    const { title, titleSecond, text, link, linkText, colorModif, children } = props;
 
 
     function colorModifCheck(colorModif) {
@@ -25,7 +25,7 @@ function BlockWithLink(props) {
 
         <>
                 <div className={[styles.block,  colorModifCheck(colorModif)].join(' ') }>
-                    <h3>{title}</h3>
+                    <h3>{title}<span>{titleSecond}</span></h3>
                     <p>{text}</p>
                     <Link to={link}>{linkText}</Link>
                 </div>

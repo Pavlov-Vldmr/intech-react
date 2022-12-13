@@ -18,7 +18,7 @@ function Header() {
                     <nav>
                         <ul>
                             <li><NavLink to="/">Home</NavLink></li>
-                            <li><NavLink to="/research-lab">Исследовательская лаборатория</NavLink></li>
+                            <li><NavLink to="/research-lab">Испытательная лаборатория</NavLink></li>
                             <li><NavLink to="/research">Научные исследования</NavLink></li>
                             <li><NavLink to="/repair">Ремонтно-восстановительные работы</NavLink></li>
                             <li><NavLink to="/installation">Монтаж и шеф-монтаж оборудования </NavLink></li>

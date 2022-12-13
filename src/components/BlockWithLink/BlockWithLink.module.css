@@ -21,6 +21,11 @@ h3 {
   color: var(--color-text-light);
 }
 
+.block>h3>span {
+  color: var(--color-text-second);
+  font-size: 24px;
+}
+
 .block {
   border: 1px solid rgb(226, 226, 226);
   min-height: 350px;
