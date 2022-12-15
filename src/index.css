@@ -20,6 +20,10 @@
   padding: 0px;
 }
 
+/* header>div>div>ul>li>a:active{
+  color: red;
+} */
+
 .container {
   width: 100%;
   display: flex;
@@ -29,6 +33,17 @@
 }
 
 
+header>div>div>ul>li>a{
+  /* color: var(--color-text); */
+}
+
+.active{
+  /* color:rgb(60, 67, 142);
+   */
+   border-radius: 4px;
+  background-color: rgba(204, 204, 204, 0.856) !important;
+   
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -51,10 +66,6 @@ secondText {
   color: var(--color-text-second);
 }
 
-a.active {
-  background-color: rgba(31, 31, 31, 0.1);
-  display: block;
-}
 
 p {
   text-align: justify;
