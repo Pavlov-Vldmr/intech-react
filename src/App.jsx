@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 
 // import logo from './logo.svg';
 
@@ -13,10 +13,13 @@ import PageProduction from './components/PageProduction/PageProduction';
 import PageItSolutions from './components/PageItSolutions/PageItSolutions';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
+
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path='/' element={<PageHome />} />
@@ -27,7 +30,6 @@ function App() {
         <Route path='/production' element={<PageProduction />} />
         <Route path='/it-solutions' element={<PageItSolutions />} />
         <Route path='*' element={<PageNotFound />} />
-
       </Routes>
       <Footer />
     </BrowserRouter>

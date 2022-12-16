@@ -10,7 +10,7 @@ function PageHome() {
     return (
 
         <>
-            <div className="container">
+            <div className="">
                 <div className={styles.mainPageImg}>
                     <h1>Научно-производственное объединение <span>InTech</span></h1>
                     <img src="./images/main-page-img.png" alt="Intech - Main Page Image" />

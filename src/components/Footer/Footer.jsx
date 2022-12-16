@@ -14,7 +14,7 @@ function Footer() {
                     <div>
                         <div className={styles.contactLeft}>
                             <p>ООО НПО "Интех"</p>
-                            <p><secondText>Почтовый адрес</secondText> 693020, г. Южно-Сахалинск, ул. Пушкина, д. 80, оф. 108</p>
+                            <p><span className="secondText">Почтовый адрес</span> 693020, г. Южно-Сахалинск, ул. Пушкина, д. 80, оф. 108</p>
                         </div>
                         <div className={styles.contactRight}>
                             <p>+7 4242 25-37-15</p>

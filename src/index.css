@@ -62,7 +62,7 @@ img.pageImg.logo {
   /* margin: 10px; */
 }
 
-secondText {
+span.secondText {
   color: var(--color-text-second);
 }
 

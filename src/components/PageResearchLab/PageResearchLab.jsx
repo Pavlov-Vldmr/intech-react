@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "./logo.png";
 
 
@@ -7,6 +6,7 @@ import "./PageResearchLab.css";
 import Paragraph from "../Paragraph/Paragraph";
 
 function PageResearchLab() {
+ 
     return (
         <>
             {/* Image */}
@@ -33,7 +33,7 @@ function PageResearchLab() {
             {/* <Paragraph title="" text=""></Paragraph> */}
             {/* logo */}
             {/* <Paragraph title="1" text=""><hr /></Paragraph> */}
-           
+
             <img className="pageImg logo" src={logo} alt="" />
 
 
